@@ -3,7 +3,7 @@ pipeline {
 
     environment{
       BRANCH_NAME = 'main'
-      GIT_URL = 'https://github.com/christelledjike/aws-ci-cd.git''
+      GIT_URL = 'https://github.com/christelledjike/aws-ci-cd.git'
 
     }
 
