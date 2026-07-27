@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    }
+    
     environment{
       BRANCH_NAME = 'main'
       GIT_URL = 'https://github.com/christelledjike/aws-ci-cd.git'
@@ -20,5 +20,7 @@ pipeline {
            } 
         }
     
+}
+}
 }
 
